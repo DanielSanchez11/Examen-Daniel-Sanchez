@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'serif';
+}
+/*INICIA LA PARTE DEL ENCABEZADO Y DEL LOGO IHER*/
+#linea{
+	width: 100%;
+	height: 5px;
+	background: #FFD700;
+}
+
+#encabezado{
+	width: auto;
+	height: 133px;
+	border: 0px solid;
+	background: #20B2AA;
+}
+
+#centro{
+	width: 100%;
+	overflow: hidden;
+	background: #FFCC99;
+	height: 100vh;
+}
+
+#mapa{
+	overflow: hidden;
+	background:#99FFFF;
+}
+
+#formulario{
+	overflow: hidden;
+	background:#339966;
+	height: 100vh;
+}
+
+#Formulario.II{
+	overflow: hidden;
+	background:#339966;
+	height: 700vh;
+}
+
+#encabezado #logo{
+	width: 500px;
+	height: auto;
+	border: 0px solid;
+	float: left;
+}
+
+#encabezado #logo h2{
+	color: #fff;
+}
+.imagen{
+	width: 100px;
+	height: auto;
+	margin-top: 20px;
+	float: left;
+	margin-right: 15px;
+	margin-left: 20px;
+	border-radius: 50px;
+}
+
+/*FINALIZA LA PARTE DEL ENCABEZADO Y DEL LOGO IHER*/
+
+/*INICIA LA PARTE DEL MENU PROPIEDADES GENERALES*/
+#encabezado .menu{
+	width: 790px;
+	float: right;
+	margin-top: 40px;
+	text-align: center;
+	border: 0px solid;
+	font-size: 25px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+}
+
+nav li{
+	line-height: 2.5rem;
+	position: relative;
+}
+
+.menu ul{
+	position: absolute;
+}
+
+nav a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	transition: .4s;
+	padding: 10px 20px;
+}
+
+nav a:hover{
+	background: rgba(0,0,0,.5);
+}
+
+nav li ul{
+	float: right;
+	font-size: 17px;
+}
+
+
+/*MENU PARTE PRIMER NIVEL*/
+.menu{
+	background: #20B2AA;
+	display: table;
+	height: auto;
+}
+
+.menu >li{
+	float: left;
+}
+
+/*MENU PARTE SEGUNDO NIVEL*/
+nav li li{
+	background: #20B2AA;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .1s;
+    width: 155px;
+}
+
+nav li:hover > ul > li{
+	max-height: 500px;
+	overflow: visible;
+}
+
+.menu > li > ul{
+	top:100%;
+}
+
+/*MENU PARTE TERCER NIVEL*/
+.menu ul ul{
+	left:100%;
+	top: 0;
+}
+
+/*FINALIZA LA PARTE DEL MENU*/
+
+/*DE AQUI EN ADELANTE ES EL CODIGO DE LA TABLA*/
+table#mitabla {border-collapse: collapse;}
+td.bajo {background-color: #ff455e;}
+td.medio {background-color: #d63e3e;}
+td.alto {background-color: #940014;}
+
+td.a {background-color: #243ff0;}
+td.b {background-color: #1726cf;}
+td.c {background-color: #100085;}
+
+td.aaa {background-color: #f8ff94;}
+td.bbb {background-color: #fff64f;}
+td.ccc {background-color: #ffff00;}
+
+thead.cabecera tr td{
+	font-family: monospace;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	padding: 15px;}
+
+tfoot.pie tr td {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Georgia;
+    padding: 2px;}
+
+tbody.cuerpo tr td {
+	color: #ebebeb;
+	padding: 10px;}
+    	
+td {border-style: solid;
+    border-color: #cccccc;
+ border-width: 2px;}
+}
+
+h1{
+	color: white;
+	text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+	text-align: center;
+}
+
+div.galeria{
+	margin: 10px 20px;
+	box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+	float: left;
+	width: 250px;
+}
+
+div.galeria img{
+	width: 75%;
+	height: auto;
+}
+
+div.galeria:hover{
+	border: 3px solid lightcoral;
+	transform: rotate(-3deg);
+}
+
+div.pie{
+	text-align: center;
+	text-shadow: 2px 2px 5px purple;
+	padding: 10px;
+}
+
+.footer{
+	background-color: #fff;
+	width: 100%;
+	height: 20px;
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+	color: #000;
+}

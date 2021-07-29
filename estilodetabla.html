@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+    <head><title> Tabla con CSS</title>
+    	       <link rel="stylesheet" type="text/css" href="css/tabla.css"> 
+
+</head>
+
+<body>
+<div id="encabezado">
+	<div id="logo">
+		<img src="img/logoiher.jpg" class="imagen">
+		<h2>Instituto Hondureño de Educación por Radio</h2>
+	</div>
+	
+    <div >
+    	<nav>
+    	<ul class="menu">
+    		<li><a href="">Semana I </a>
+    		    <ul>
+    				<li><a href="tablasencilla.html">Tabla Sencilla</a></li>
+    				<li><a href="estilodetabla.html">Estilo de Tablas</a></li>
+    				<li><a href="tablaconestilo.html">Tabla con Estilo</a></li>
+    			</ul>
+    		</li>
+    		<li><a href="">Semana II </a>
+    			<ul>
+    				<li><a href="tablaconestilo.html">Tabla con Estilo</a></li>
+    				<li><a href="juego.html">Juego</a></li>
+    				<li><a href="ganaste.html">Ganaste</a></li>
+    			</ul>
+    		</li>
+    		<li><a href="">Semana III </a>
+    			<ul>
+    				<li><a href="mapa.html">Mapa</a></li>
+    				<li><a href="formulario.html">Formulario</a></li>
+    				<li><a href="semana 1 2 3 4 5.html">Semanas del 1 al 5</a></li>
+    				<li><a href="Formulario II.html">Formulario II</a></li>
+    			</ul>
+    		</li>
+    		<li><a href="">Semana IV </a>
+    			<ul>
+    				<li><a href="">Sub Item I</a></li>
+    				<li><a href="">Sub Item II</a></li>
+    				<li><a href="">Sub Item III</a></li>
+    				<li><a href="">Sub Item IV</a></li>
+    			</ul>
+    		</li>
+    		<li><a href="">Semana V </a>
+    			<ul>
+    				<li><a href="">Sub Item I</a></li>
+    				<li><a href="">Sub Item II</a></li>
+    				<li><a href="">Sub Item III</a></li>
+    				<li><a href="">Sub Item IV</a></li>
+   				</ul>
+   			</li>
+   		</ul>
+        </nav>
+    </div>
+</div>
+<style>
+table#mitabla {border-collapse: collapse;}
+td.bajo {background-color: #ff455e;}
+td.medio {background-color: #d63e3e;}
+td.alto {background-color: #940014;}
+
+td.a {background-color: #243ff0;}
+td.b {background-color: #1726cf;}
+td.c {background-color: #100085;}
+
+td.aaa {background-color: #f8ff94;}
+td.bbb {background-color: #fff64f;}
+td.ccc {background-color: #ffff00;}
+
+thead.cabecera tr td {
+	font-family: monospace;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 15px;}
+
+tfoot.pie tr td {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia;
+    padding: 2px;}
+
+tbody.cuerpo tr td {
+	color: #ebebeb;
+	padding: 10px;}
+              
+td {border-style: solid;
+    border-color: #cccccc;
+ border-width: 1px;}
+</style>
+
+ <body>
+<table id="mitabla">
+<thead class="cabecera">
+<tr class="rojo">
+<td class="bajo"> elemento a </td>
+<td class="medio"> elemento b </td>
+<td class="alto"> elemento c </td>
+</tr>
+</thead>
+<tbody class="cuerpo">
+<tr>
+<td class="a"> lemento A </td>
+<td class="b"> lemento B </td>
+<td class="c"> lemento C </td>
+</tr>
+<tr>
+<td class="a"> emento AA </td>
+<td class="b"> emento BB </td>
+<td class="c"> emento CC </td>
+</tr>	
+</tbody>
+<tfoot class="pie">
+<tr>
+<td class="aaa"> emento AAA </td>
+<td class="bbb"> emento BBB </td>
+<td class="ccc"> emento CCC </td>	
+</tr>		
+</tfoot>
+</table>	
+ <div class="footer">
+   	Derechos Reservados Daniel Eduardo Sanchez Lopez, seccion 1, año 2021.
+   </div>
+</body>
+</html>
